@@ -25,8 +25,8 @@ jobs:
     - run: |
         chmod +x ./gradlew
         sed -i 's/moduleDescription = "/moduleDescription = "(${{ github.event.inputs.package_name }}) /g' module.gradle
-        sed -i "s/com.game.packagename/${{ github.event.inputs.package_name }}/g" module/src/main/cpp/game.h
-        sed -i "s/0x000000/${{ github.event.inputs.gm_addr }}/g" module/src/main/cpp/hack.h
+        sed -i "s/com.YoStarJP.Arknights/${{ github.event.inputs.package_name }}/g" module/src/main/cpp/game.h
+        sed -i "s/0xA67D770UL/${{ github.event.inputs.gm_addr }}/g" module/src/main/cpp/hack.h
         ./gradlew :module:assembleRelease
     - uses: actions/upload-artifact@v4
       with:

@@ -5,6 +5,6 @@
 #ifndef ZYGISK_IL2CPPDUMPER_GAME_H
 #define ZYGISK_IL2CPPDUMPER_GAME_H
 
-#define GamePackageName "com.YoStarEN.Arknights"
+#define GamePackageName "com.YoStarJP.Arknights" // using jp bc updates come a little bit sooner
 
 #endif //ZYGISK_IL2CPPDUMPER_GAME_H
