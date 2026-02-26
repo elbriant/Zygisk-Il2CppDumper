@@ -1,3 +1,5 @@
+# I changed to use Frida. [sagapi-dumper](https://github.com/elbriant/sagapi-dumper)
+
 # Zygisk-Il2CppDumper
 
 > 注意：代码中写死了从 0x100 和 0x104 找两个offset计算gm的文件大小
